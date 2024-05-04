@@ -1,0 +1,9 @@
+# Python program to get the intersection  of two list
+
+def intersection_list(list1, list2):  
+   list3 = [value for value in list1 if value in list2]  
+   return list3  
+  
+list1 = [40, 90, 11, 58, 31, 66, 28, 54, 79]  
+list2 = [58, 90, 54, 31, 45, 11, 66, 28, 26]  
+print(intersection_list(list1, list2))  
