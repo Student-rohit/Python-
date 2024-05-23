@@ -1,0 +1,4 @@
+print(round(25.4654, 2))  
+  
+print(round(25.4276, 3))  
+print(round(25.4173, 2))  
