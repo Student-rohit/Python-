@@ -1,0 +1,5 @@
+tuple_ = ('Python',"Tuples")    
+print("Original tuple is: ", tuple_)    
+# Repeting the tuple elements    
+tuple_ = tuple_ * 3    
+print("New tuple is: ", tuple_)    
