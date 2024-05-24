@@ -1,0 +1,21 @@
+# Simple Python program to show how to use global and local variables    
+var = 10       
+
+def func1():    
+    print('Inside the first function: ', var)    
+
+def func2():    
+    var = 15    
+    print('Inside the second function: ', var)    
+def func3():    
+    global var    
+    var += 3    
+    print("Inside the third function: ", var)    
+
+print('global value of variable: ', var)    
+func1()    
+print('global value of variable: ', var)    
+func2()    
+print('global value of variable: ', var)    
+func3()    
+print('global value of variable: ', var)    
