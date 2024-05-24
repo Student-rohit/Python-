@@ -1,0 +1,3 @@
+print(round(5.5))  
+print(round(5))  
+print(round(6.5))  
